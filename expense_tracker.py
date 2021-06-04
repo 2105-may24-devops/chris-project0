@@ -18,7 +18,7 @@ users = ''
        # json.dump(users, f)
 
 
-def login(username):
+def login(username): ## login funtion in progress
     username = input("Name: ")
     password = input("Password: ")
 
@@ -44,7 +44,7 @@ def login(username):
 
 
 startup = input('Welcome to Spend Patrol \nPlease type one of the following commands:\n'
-                'Login\nRecord\nReview\nExit\n')
+                'Login\nRecord\nReview\nExit\n')  # value used to move around while loop
 
 while startup.lower() != 'exit':
 
